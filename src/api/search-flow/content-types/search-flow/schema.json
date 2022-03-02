@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_flows",
+  "info": {
+    "singularName": "search-flow",
+    "pluralName": "search-flows",
+    "displayName": "SearchFlow"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SearchSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "initial-search.flow-definitions"
+    }
+  }
+}

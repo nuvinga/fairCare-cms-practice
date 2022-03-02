@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "search_widgets",
+  "info": {
+    "singularName": "search-widget",
+    "pluralName": "search-widgets",
+    "displayName": "DefaultSearchWidget",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Filter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "initial-search.just-getting-started"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

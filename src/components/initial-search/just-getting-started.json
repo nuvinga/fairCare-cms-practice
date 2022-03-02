@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_initial_search_just_getting_starteds",
+  "info": {
+    "displayName": "default-search",
+    "icon": "bolt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "search_flow": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::search-flow.search-flow"
+    }
+  }
+}

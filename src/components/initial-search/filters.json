@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_initial_search_filters",
+  "info": {
+    "displayName": "Filters",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postcodes",
+  "info": {
+    "singularName": "postcode",
+    "pluralName": "postcodes",
+    "displayName": "Postcode"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Suburb": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_initial_search_flow_definitions_s",
+  "info": {
+    "displayName": "FlowDefinitions ",
+    "icon": "bezier-curve",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Filters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "initial-search.filters"
+    }
+  }
+}
